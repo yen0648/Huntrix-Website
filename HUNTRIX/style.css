@@ -1,0 +1,298 @@
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #2b0550 20%, #33103a 100%);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      color: #FFD6EC;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navhead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 60px;
+      margin-top: 20px;
+    }
+
+    .logo h1 {
+      font-size: 35px;
+      margin: 0;
+      text-shadow: #FF3CAC 2px 5px 3px, #7B2CBF -2px -5px 3px;
+    }
+
+    .navdiv {
+      margin: 0;
+    }
+
+    .navbar {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 30px;
+      font-size: 18px;
+    }
+
+    .navbar li {
+      cursor: pointer;
+    }
+
+    .imagepage {
+      background-image: url('HUNTRIXX.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin-top: 30px;
+    }
+
+    .head1 {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 40px;
+      text-shadow: #00BFFF -5px 5px 8px, #FFD700 5px -5px 8px;
+      margin-bottom: 20px;
+    }
+
+    .image1, .image2, .image3 {
+      width: 230px;
+      height: 373px;
+      border: solid;
+      border-color: rgb(228, 160, 255);
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding: 10px;
+    }
+
+    .Rumi:hover .image1,
+    .Mira:hover .image2,
+    .Zoey:hover .image3 {
+      border-color: #5d00b5;
+    }
+
+    .members {
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+    }
+
+    .Rumi, .Mira, .Zoey {
+      background-color: #823bc5;
+      width: 380px;
+      height: 620px;
+      transition: 0.3s;
+      align-content: center;
+      padding-top: 20px;
+    }
+
+    .Rumi:hover, .Mira:hover, .Zoey:hover {
+      transform: scale(1.05);
+      background-color: #e4cbfb;
+    }
+
+    .p1 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .name {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .Rumi:hover .name,
+    .Mira:hover .name,
+    .Zoey:hover .name {
+      color: #6612b4;
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    .Rumi:hover .info,
+    .Mira:hover .info,
+    .Zoey:hover .info {
+      color: rgb(42, 20, 44);
+    }
+
+    /* Scroll Animation */
+    .hidden {
+      opacity: 0;
+      transform: translateY(300px);
+      transition: all 3ms ease-out;
+    }
+
+    .show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+.songs1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.songs2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.songdiv {
+  width: 650px;
+  height: 400px;
+  background-color: rgb(137, 100, 165);
+  border: 4px solid #6700cd;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 120px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.songdiv:hover {
+  transform: scale(1.05);
+  background-color: #e4cbfb;
+  border-color: #8400ff;
+}
+
+.songdiv:hover .songtitle {
+  color: #2b0550;
+  font-size: 25px;
+  width: 300px;
+}
+
+.songdiv:hover .descriptionsong {
+  color: #2b0550;
+}
+
+.album {
+  width: 240px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.songtitle {
+  font-size: 20px;
+  margin-top: 10px;
+  transition: 0.3s;
+  margin-left: 60px;
+  width: 250px;
+}
+
+.albumpic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 150px;
+}
+
+.descriptionsong {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  line-height: 1.4;
+  margin-left: 0px;
+
+}
+
+.product {
+  background-color: #e4cbfb;
+  height: 550px;
+  width: 350px;
+  border: solid;
+  border-color: #5d00b5;
+  border-width: 5px;
+}
+   
+
+.productimage {
+  width: 300px;
+  height: 350px;
+  
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+  
+.productdes {
+  color: #33103a;
+  font-size: 25px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  background-color: #6612b4;
+  border: solid;
+  border-color: #2e0752;
+}
+    
+.products {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.products2 {
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: rgb(80, 33, 113);
+  width: 100%;
+  height: 80px;
+}
+
+.foooter {
+  display: flex;
+  font-size: 18px;
+  gap: 0px;
+
+}
+
+.pfooter {
+  margin: auto;
+  margin-top: 25px;
+  gap: 0;
+}
